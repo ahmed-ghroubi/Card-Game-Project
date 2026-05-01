@@ -96,7 +96,6 @@ Card-Game-Project/
 ├── Card_Staircase_Class_Diagram.png
 ├── GUI Flow.png
 ├── README.md
-└── build.gradle.kts
 ```
 
 The `src/main/kotlin` directory contains the main application code, separated into entity, GUI, and service layers.
