@@ -40,7 +40,7 @@ Key mechanics include:
 The following diagram shows the graphical user interface flow of the application.  
 It illustrates how players navigate through the different scenes of the game.
 
-![GUI Flow](./GUI.png)
+![GUI Flow](https://github.com/ahmed-ghroubi/Card-Game-Project/blob/main/GUI%20Flow.png)
 
 ---
 
@@ -49,7 +49,7 @@ It illustrates how players navigate through the different scenes of the game.
 The following class diagram illustrates the overall architecture of the application.  
 It shows the relationships between the GUI layer, service layer, and entity layer.
 
-![Class Diagram](./ClassDiagram.png)
+![Class Diagram](https://github.com/ahmed-ghroubi/Card-Game-Project/blob/main/Card_Staircase_Class_Diagram.png)
 
 ---
 
