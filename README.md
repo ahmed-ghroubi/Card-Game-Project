@@ -101,8 +101,6 @@ Card-Game-Project/
 
 The `src/main/kotlin` directory contains the main application code, separated into entity, GUI, and service layers.
 
-The `src/main/resources` directory contains resource files used by the application.
-
 The `src/test/kotlin` directory contains the test code for the entity and service logic.
 
 The root directory contains the README, build configuration, and project diagrams.
