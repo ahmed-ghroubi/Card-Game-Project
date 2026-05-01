@@ -1,8 +1,93 @@
-# SoPra Projekt 1 (Einzelprojekt)
+# Card Staircase Game
 
-## Wichtige Links
+Card Staircase Game is a digital two-player card game implemented in Java.  
+The project focuses on clean architecture, structured game logic, and an interactive graphical user interface.
 
-* Aktuelle Informationen zu diesem SoPra: https://sopra.cs.tu-dortmund.de/wiki/sopra/25D/start
-* Beispielprojekt Kartenspiel War: https://sopra-gitlab.cs.tu-dortmund.de/internal/bgw-war
-* Beispielprojekt Mau-Mau: https://sopra-gitlab.cs.tu-dortmund.de/internal/bgw-maumau
-* Weitere Links: https://sopra.cs.tu-dortmund.de/wiki/infos/links/
+---
+
+## Project Overview
+
+This project implements the card game "Card Staircase" as a software application.  
+Two players compete by strategically using their cards to gain points through different actions such as combining cards, destroying cards, drawing, and discarding.
+
+The objective of the game is to achieve the highest score by the end of the match.
+
+The application is designed with a clear separation of concerns, divided into:
+- GUI layer for user interaction  
+- Service layer for game logic  
+- Entity layer for core game objects  
+
+---
+
+## Game Concept
+
+- The game is played by two players  
+- Each player has a hand of cards  
+- A central "staircase" of cards forms the main playfield  
+- Players interact with the staircase to gain points  
+- The game ends when no more valid moves are possible or the staircase is cleared  
+
+Key mechanics include:
+- Combining cards to earn points  
+- Destroying cards at a cost  
+- Drawing new cards from the deck  
+- Discarding cards to manage the hand  
+
+---
+
+## GUI Flow
+
+The following diagram shows the graphical user interface flow of the application.  
+It illustrates how players navigate through the different scenes of the game.
+
+![GUI Flow](./GUI.png)
+
+---
+
+## Class Diagram
+
+The following class diagram illustrates the overall architecture of the application.  
+It shows the relationships between the GUI layer, service layer, and entity layer.
+
+![Class Diagram](./ClassDiagram.png)
+
+---
+
+## Technologies Used
+
+- Java  
+- JavaFX  
+- Object-Oriented Programming  
+- UML Class Diagrams  
+
+---
+
+## Features
+
+- Two-player gameplay  
+- Interactive graphical user interface  
+- Structured game state management  
+- Multiple strategic actions  
+- Game history tracking  
+- Clear modular architecture  
+
+---
+
+## Repository Structure
+
+```text
+Card-Staircase-Game/
+│
+├── src/
+│   ├── main/
+│   │   ├── entity/
+│   │   ├── gui/
+│   │   ├── service/
+│   │   └── Main.java
+│   │
+│   └── test/
+│       └── service/
+│
+├── ClassDiagram.png
+├── GUI.png
+├── README.md
