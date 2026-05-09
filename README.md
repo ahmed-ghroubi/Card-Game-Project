@@ -1,6 +1,6 @@
 # Card Staircase Game
 
-Card Staircase Game is a digital two-player card game implemented in Java.  
+Card Staircase Game is a digital two-player card game implemented in Kotlin.  
 The project focuses on clean architecture, structured game logic, and an interactive graphical user interface.
 
 ---
@@ -13,6 +13,7 @@ Two players compete by strategically using their cards to gain points through di
 The objective of the game is to achieve the highest score by the end of the match.
 
 The application is designed with a clear separation of concerns, divided into:
+
 - GUI layer for user interaction  
 - Service layer for game logic  
 - Entity layer for core game objects  
@@ -28,6 +29,7 @@ The application is designed with a clear separation of concerns, divided into:
 - The game ends when no more valid moves are possible or the staircase is cleared  
 
 Key mechanics include:
+
 - Combining cards to earn points  
 - Destroying cards at a cost  
 - Drawing new cards from the deck  
@@ -55,10 +57,11 @@ It shows the relationships between the GUI layer, service layer, and entity laye
 
 ## Technologies Used
 
-- Java  
-- JavaFX  
-- Object-Oriented Programming  
-- UML Class Diagrams  
+- Kotlin
+- JavaFX
+- Object-Oriented Programming
+- UML Class Diagrams
+- GUI Scene Management
 
 ---
 
@@ -66,7 +69,7 @@ It shows the relationships between the GUI layer, service layer, and entity laye
 
 - Two-player gameplay  
 - Interactive graphical user interface  
-- Structured game state management  
+- Structured game-state management  
 - Multiple strategic actions  
 - Game history tracking  
 - Clear modular architecture  
@@ -96,10 +99,3 @@ Card-Game-Project/
 ├── Card_Staircase_Class_Diagram.png
 ├── GUI Flow.png
 ├── README.md
-```
-
-The `src/main/kotlin` directory contains the main application code, separated into entity, GUI, and service layers.
-
-The `src/test/kotlin` directory contains the test code for the entity and service logic.
-
-The root directory contains the README, build configuration, and project diagrams.
